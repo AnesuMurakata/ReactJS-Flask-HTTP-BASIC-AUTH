@@ -8,6 +8,6 @@ def authRouteHandler():
     userName = request.authorization["username"]
     password = request.authorization["password"]
 
-    return userName + passWord
+    return userName + ':' + passWord
 
 app.run()
