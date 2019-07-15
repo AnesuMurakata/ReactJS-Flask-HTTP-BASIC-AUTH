@@ -1,0 +1,81 @@
+.App {
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Form-Container {
+  padding-top: 50px;
+  width: 50%;
+  margin: auto;
+}
+
+.Form-Header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.Form-Borders {
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 10px 10px;
+}
+
+.Form-Borders:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Body-Section .Form-Field, .SelectionField, .Terms, .ButtonContainer {
+  padding: 5px 0;
+}
+
+.Name-Section {
+  width: 100%;
+  display: inline-flex;
+}
+
+.FirstName {
+  width: 50%;
+}
+
+.LastName {
+  width: 50%;
+}
+
+.LastNameContainer {
+  width: 90%;
+  padding-left: 10%;
+} 
+
+.FirstNameContainer {
+  width: 90%;
+  padding-right: 10%;
+}
+
+.Name-Section input {
+  width: 95%;
+}
+
+.Form-Field input {
+  width: 98%;
+}
+
+.Terms {
+  display: inline-flex;
+}
