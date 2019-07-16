@@ -3,7 +3,7 @@ from flask import request
 
 app = Flask("web-app")
 
-@app.route('/auth')
+@app.route('/newsFeed')
 def authRouteHandler():
     userName = request.authorization["username"]
     password = request.authorization["password"]
